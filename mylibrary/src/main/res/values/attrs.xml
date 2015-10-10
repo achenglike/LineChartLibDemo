@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LineChartView">
+        <attr name="backgroudColor" format="color|reference" />
+        <attr name="divideLineColor" format="color|reference" />
+        <attr name="chartAreaColor" format="color|reference" />
+        <attr name="chartLineColor" format="color|reference" />
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+        <attr name="innerPadding" format="dimension|reference"/>
+    </declare-styleable>
+</resources>
