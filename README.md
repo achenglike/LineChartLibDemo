@@ -1,6 +1,8 @@
 # LineChart
 这是一个折线图的例子，包括了lib库（mylibrary）和demo(app)两个工程， 
 这是一个简单的自定义折线图的练习，所以功能并不丰富
+### 效果图
+![image](https://github.com/achenglike/LineChartLibDemo/raw/master/pics/narrow.png)
 
 ### 使用
 ##### 在布局中引入自定义控件
@@ -63,4 +65,7 @@ adapter.notifyDataChanged();
 * innerPadding 
 * textColor 
 * textSize 
+
+它们定义的属性如下： 
+![image](https://github.com/achenglike/LineChartLibDemo/raw/master/pics/marked.jpg)
 
