@@ -89,8 +89,8 @@ public class LineChartView extends View implements LineChartAdapter.DataChangeLi
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        viewWidth = getMeasuredWidth() - innerPadding * 2;
-        viewHeight = getMeasuredHeight() - innerPadding * 2;
+        viewWidth = getMeasuredWidth() - innerPadding;
+        viewHeight = getMeasuredHeight() - innerPadding;
         measureAdapterData();
     }
 
